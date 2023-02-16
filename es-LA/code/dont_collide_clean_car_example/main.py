@@ -9,7 +9,6 @@ score = 0
 
 # The draw_obstacle function goes here
 def draw_obstacles():
-  
   global level
   
   seed(123456789)
@@ -26,7 +25,6 @@ def draw_obstacles():
     
 # The draw_player function goes here
 def draw_player():
-  
   global score, level
   
   player_x = int(width * 0.2)
