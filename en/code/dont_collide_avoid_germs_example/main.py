@@ -73,12 +73,12 @@ def draw_player():
   if mouse_x > width: # off the right of the screen
     collide3 = safe
     
-  #print(collide, collide2, collide3, collide4)
+  # print(collide, collide2, collide3, collide4)
     
   if collide == safe and collide2 == safe and collide3 == safe and collide4 == safe:
     safe_player()
     score += level
-  else: # Collided
+  else: # Collided!
     crashed_player()
     level = 0
   
