@@ -1,5 +1,5 @@
 NAME: "Don't Collide: Avoid the Germs"
-IDENTIFIER: "avoid-germs-example"
+IDENTIFIER: "avoid-virus-example"
 COMPONENTS:
   - name: "main"
     extension: "py"
