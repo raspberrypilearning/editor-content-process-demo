@@ -1,8 +1,3 @@
 NAME: "Don't Collide: Avoid the Germs"
 IDENTIFIER: "avoid-virus-example"
-COMPONENTS:
-  - name: "main"
-    extension: "py"
-    location: "main.py"
-    index: 0
-    default: true
+TYPE: "python"
