@@ -11,6 +11,7 @@ invun = 0
 
 # The draw_obstacle function goes here
 def draw_obstacles():
+  
   global level
   
   seed(random_seed)
@@ -32,6 +33,7 @@ def draw_obstacles():
     
 # The draw_player function goes here
 def draw_player():
+  
   global score, level, lives, invun
   
   player_y = int(height * 0.8)

@@ -7,7 +7,7 @@ level = 1
 score = 0
 
 def safe_player():
-
+  
   global player_y
   
   # Face
@@ -24,7 +24,7 @@ def safe_player():
   fill(255)
   ellipse(mouse_x - 12, player_y - 12, 5, 5)
   ellipse(mouse_x + 12, player_y - 12, 5, 5)
-
+  
   # Mouth
   fill(0)
   ellipse(mouse_x, player_y + 10, 15, 10)
@@ -49,15 +49,15 @@ def crashed_player():
   fill(255)
   ellipse(mouse_x - 12, player_y - 12, 5, 5)
   ellipse(mouse_x + 12, player_y - 12, 5, 5)
-
+  
   # Mouth
   fill(0)
   ellipse(mouse_x, player_y + 15, 15, 10)
   fill(178, 200, 145)
   ellipse(mouse_x, player_y + 20, 10, 10)
-
+  
 def draw_player():
-
+  
   global player_y, safe, score, level
   
   player_y = int(height * 0.8)
@@ -73,12 +73,12 @@ def draw_player():
   if mouse_x > width: # off the right of the screen
     collide3 = safe
     
-  #print(collide, collide2, collide3, collide4)
+  # print(collide, collide2, collide3, collide4)
     
   if collide == safe and collide2 == safe and collide3 == safe and collide4 == safe:
     safe_player()
     score += level
-  else: # Collided
+  else: # Collided!
     crashed_player()
     level = 0
   
@@ -117,6 +117,6 @@ def draw():
     text('Score: ' + str(score), width/2, 20)
     draw_obstacles()
     draw_player()
-
-# Keep this here to run your code
+  
+# Keep this to run your code
 run()
