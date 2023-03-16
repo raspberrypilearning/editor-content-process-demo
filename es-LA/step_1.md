@@ -42,7 +42,6 @@ Mira los ejemplos a continuación. Piensa en cómo se han creado los personajes 
 <iframe src="https://trinket.io/embed/python/862fe421f2?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 </div>
 
-
 **Auto limpio**: [Ver dentro](https://trinket.io/python/428e2e2dc2){:target="_blank"}
 <div class="trinket">
 <iframe src="https://trinket.io/embed/python/428e2e2dc2?outputOnly=true" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
