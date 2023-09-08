@@ -3,7 +3,7 @@
 from p5 import *
 from random import randint, seed
 
-# Put all your global variables here
+# Put the global variables here
 
 
 def setup():
